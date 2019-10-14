@@ -1,0 +1,61 @@
+:root {
+  font-size: 16px;
+  font-family: 'Lato', 'sans-serif';
+  letter-spacing: 0.325px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #1f262d;
+}
+
+body a {
+  display: contents;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/*reset for mobile browsers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+.grecaptcha-badge {
+  visibility: collapse !important;
+}
+
+#tooltips {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#toast {
+  z-index: 3500;
+  position: fixed;
+  top: 65px;
+  right: 0;
+  padding: 4px;
+  width: 320px;
+  box-sizing: border-box;
+  transition: all 0.5 ease;
+}
+
+@media (max-width: 36em) {
+  #toast {
+    width: 100%;
+  }
+}

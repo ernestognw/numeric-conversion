@@ -5,7 +5,10 @@
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-md-icon": "^1.13.0",
+    "react-scripts": "3.2.0",
+    "shortid": "^2.2.15",
+    "styled-components": "^4.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
